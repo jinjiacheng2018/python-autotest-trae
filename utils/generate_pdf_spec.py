@@ -1,4 +1,10 @@
-
+'''
+@Project    ：python-autotest-trae
+@File       ：demo_read_data.py
+@Date       ：2026/1/3 23:17:35
+@Author     ：JinJiacheng
+@description：生成项目PDF规范工具类（1次性使用）
+'''
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
